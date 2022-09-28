@@ -1,84 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="./app.bundle.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- ========== Header ========== -->
     <header>
-      <div class="nav-bar">
-        <a href="#" class="logo"><img src="./images/logo.png" alt="" /></a>
-        <div class="navigation">
-          <div class="nav-items">
-            <a class="active" href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-          </div>
+        <div class="nav-bar">
+            <a href="#" class="logo"><img src="./images/logo.png" alt="" /></a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
     <!-- ========== Home Section ========== -->
     <section class="home section flex-center">
-      <div class="home-container">
-        <div class="info">
-          <h1>This is Cat</h1>
-          <h2>Home Cat</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos
-            culpa suscipit voluptate ipsum necessitatibus. Sed dolore
-            praesentium commodi ducimus?
-          </p>
-          <a href="#" class="btn">Sign Up</a>
+        <div class="home-container">
+            <div class="info">
+                <h1>This is Cat</h1>
+                <h2>Home Cat</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos
+                    culpa suscipit voluptate ipsum necessitatibus. Sed dolore
+                    praesentium commodi ducimus?
+                </p>
+                <a href="#" class="btn">Sign Up</a>
+            </div>
+            <div class="home-img">
+                <img src="./images/cat-home.jpg" alt="" />
+            </div>
         </div>
-        <div class="home-img">
-          <img src="./images/cat-home.jpg" alt="" />
-        </div>
-      </div>
     </section>
     <!-- ========== About Section ========== -->
-    <section class="about">
-      <div class="container section">
-        <div class="about__title">
-          <h1>Types of Cats</h1>
+    <div class="main">
+        <section class="about">
+            <div class="container section">
+                <div class="about__title">
+                    <h1>Types of Cats</h1>
+                </div>
+                <ul class="about__list">
+                    <li>
+                        <img class="about__img" src="./images/01about-cat.jpg" alt="" />
+                        <p>Happy Cat</p>
+                    </li>
+                    <li>
+                        <img class="about__img" src="./images/02about-cat.jpg" alt="" />
+                        <p>Sad Cat</p>
+                    </li>
+                    <li>
+                        <img class="about__img" src="./images/03about-cat.jpg" alt="" />
+                        <p>Angry Cat</p>
+                    </li>
+                    <li>
+                        <img class="about__img" src="./images/04about-cat.jpg" alt="" />
+                        <p>Sleep Cat</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="block section"></div>
+        <div class="block2">
+            <div class="block2in section">
+                <p>
+                    "If I chew something up, all of the pieces are mine. If I can take it
+                    from you, it's mine."
+                </p>
+                <div class="div-two">
+                    <p class="who">-- Anonymous Shiba Inu</p>
+                </div>
+            </div>
         </div>
-        <ul class="about__list">
-          <li>
-            <img class="about__img" src="./images/01about-cat.jpg" alt="" />
-            <p>Happy Cat</p>
-          </li>
-          <li>
-            <img class="about__img" src="./images/02about-cat.jpg" alt="" />
-            <p>Sad Cat</p>
-          </li>
-          <li>
-            <img class="about__img" src="./images/03about-cat.jpg" alt="" />
-            <p>Angry Cat</p>
-          </li>
-          <li>
-            <img class="about__img" src="./images/04about-cat.jpg" alt="" />
-            <p>Sleep Cat</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <div class="block section"></div>
-    <div class="block2">
-      <div class="block2in section">
-        <p>
-          "If I chew something up, all of the pieces are mine. If I can take it
-          from you, it's mine."
-        </p>
-        <div class="div-two">
-          <p class="who">-- Anonymous Shiba Inu</p>
-        </div>
-      </div>
     </div>
-
     <!-- ========== News Section ========== -->
-  </body>
+    <div class="news">
+        <div class="news__block">
+            <div class="news__block-in">
+                <div class="block__info">
+                    <h5>Keep it update with Cat News!</h5>
+                    <p>Sign up for the lates informations right now</p>
+                </div>
+                <a href="#" class="btn">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <!-- ========== Footer Section ========== -->
+    <footer>
+        <div class="footer__info">
+            <p>Copyright © The Odin Project 2022</p>
+        </div>
+    </footer>
+</body>
+
 </html>
